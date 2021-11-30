@@ -1,9 +1,16 @@
-import logo from './logo.svg';
+import TodoContainer from './component/TodoContainer';
+import TCF from './component/TodoContainerFunc';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+
+        <div>
+        <h1>Hello World</h1>
+        <TodoContainer/>
+        <TCF/>
+        </div>
+   /*  <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> */
   );
 }
 
